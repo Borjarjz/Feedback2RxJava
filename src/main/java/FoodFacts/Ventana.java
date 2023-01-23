@@ -94,8 +94,13 @@ public class Ventana extends Application {
         if (product != null) {
             name.setText(product.getProductName());
 
+
+            if (grid.getChildren().contains(imagen)) {
+                grid.getChildren().remove(imagen);
+            }
             Image image = new Image(product.getImageUrl());
             ImageView imagen = new ImageView(image);
+
 
             grid.add(imagen, 1, 2);
 
