@@ -1,4 +1,7 @@
 # Feedback2RxJava
+
+Borja Rodriguez Jimenez Programación Concurrente.
+
 RxJava
 
 	1. Realiza una aplicación JavaFX que muestre al usuario el listado de paises usando la API REST Countries
